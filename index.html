@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+WIDGET TEST
+</body>
+<script>
+  window.ctrlSettings = {
+    webWidget: {
+      actorId: "8231d2e9-cd17-4c6f-b775-8c8d54b82db0"
+    }};
+</script>
+<script>
+  (function () {
+    window.ctrl = window.ctrl || function () {
+      (window.ctrl.q = window.ctrl.q || []).push(arguments);
+    };
+    var script = document.createElement("script");
+    var parent = document.getElementsByTagName("script")[0].parentNode;
+    script.async = 1;
+    script.src = "https://widget.control.events/shim.js";
+    parent.appendChild(script);
+  })();
+</script>
+</html>
